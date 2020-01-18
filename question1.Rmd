@@ -1,0 +1,60 @@
+---
+title: "Question 1"
+author: YOUR NAME
+---
+
+```{r, message = FALSE}
+library(tidyverse)
+```
+
+
+(a) Import the csv file `cars.csv` using `read_csv`. The file `cars.txt` contains the description of the dataset.
+
+
+
+(b) Create an object `mycars` (to be used in the following questions) and
+    - rename `hp` to `horsepower` and `mpg` to `miles_per_gallon`
+    - create a new variable `disp_per_cyl`, displacement per cylinder.
+    - both `vs` and `am` are categorical variables. Convert them to factors and gives them more meaning labels.
+
+
+
+(c) Use the `select()` function to select variables `hp` and `mpg`. And plot `mpg` vs `hp`.
+
+- Remark: you could either use base R `plot` or `ggplot`. 
+- Hint: `hp` is the x-axis and `mpg` is the y-axis.
+
+
+
+(d) Filter all the observations with `mpg` less than `mean(mpg)`. How many observations are there?
+
+
+
+(e) From (d), what is the correlation between `mpg` and `disp_per_cyl` using the `summarize` function.
+
+
+
+(f) Create a factor variable `wt_type`. When `wt < 2.7`, set `wt_type` to "light"; when `2.7 <= wt < 3.5`, set `wt_type` to "mid"; and when `wt >= 3.5`, set `wt_type` to "heavy".
+
+
+
+(g) Repeat (e) but group by `wt_type`
+
+
+
+(h) By grouping the observations by different values `cyl`, compute the $z$-scores for `mpg` by subtracting the corresponding group mean and dividing the corresponding group standard deviation. Hint: you could use the `scale` function.
+
+
+
+(i) Plot the distributions of the $z$-scores. (Your should overlay the three histograms/densities on the same plot.)
+
+
+
+(j) Do auto-transmission cars have smaller mean values of `mpg`? Compute the sample means and compare. Are the different statistical significant? State clearly the statistical assumptions that you have made.
+
+
+
+(k) Repeat (j) but group observations by different values of `cyl`.
+
+
+

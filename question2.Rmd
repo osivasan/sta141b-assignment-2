@@ -1,0 +1,43 @@
+---
+title: "Question 2"
+author: YOUR NAME
+---
+
+```{r, message = FALSE}
+library(tidyverse)
+library(gapminder)
+# use ?gapminder get the desciption of the dataset `gapminder`
+```
+
+Consider the dataset `gapminder`.
+
+(a) Modify the `continent` factor by classifying the Americas' countries into `South America` and `North America`
+    Hint: the following countries are in South America.
+    ```r
+    c("Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela")
+    ```
+
+
+In the following questions, use the dataset modified in (a).
+
+
+(b) How many countries are there in the dataset? How about for each continent?
+
+
+
+(c) Order the levels of the continent factor in alphabetical order. (Hint: do not sort the dataset)
+
+
+
+
+(d) Re-order the continent levels again so that they appear in order of total population in 2007. (Hint: do not sort the dataset)
+
+
+
+(e) Using the result of (d) and plot a bar chart for the population for the continents in monotonic (increasing or decreasing) order of populations.
+
+
+
+(f) By continent, which country experienced the sharpest increment in life expectancy from 1997 to 2007?
+
+
