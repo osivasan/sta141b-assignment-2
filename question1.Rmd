@@ -30,7 +30,7 @@ library(tidyverse)
 
 
 
-(e) From (d), what is the correlation between `mpg` and `disp_per_cyl` using the `summarize` function.
+(e) From (c), what is the correlation between `mpg` and `disp_per_cyl` using the `summarize` function.
 
 
 
@@ -50,7 +50,7 @@ library(tidyverse)
 
 
 
-(j) Do auto-transmission cars have smaller mean values of `mpg`? Compute the sample means and compare. Are the different statistical significant? State clearly the statistical assumptions that you have made.
+(j) Do auto-transmission cars have smaller mean values of `mpg`? Compute the sample means and compare. Is the difference statistical significant? State clearly the statistical assumptions that you have made.
 
 
 
