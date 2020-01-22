@@ -30,7 +30,7 @@ In the following questions, use the dataset modified in (a).
 
 
 
-(d) Re-order the continent levels again so that they appear in order of total population in 2007. (Hint: do not sort the dataset)
+(d) Determine the population for the continents in 2007. Re-order the continent levels again so that they appear in order of total population. (Hint: do not sort the dataset)
 
 
 
