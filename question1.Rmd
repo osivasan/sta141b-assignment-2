@@ -19,19 +19,19 @@ library(tidyverse)
 
 
 
-(c) Use the `select()` function to select variables `hp` and `mpg`. And plot `mpg` vs `hp`.
+(c) Use the `select()` function to select variables `horsepower` and `miles_per_gallon`. And plot `miles_per_gallon` vs `horsepower`.
 
 - Remark: you could either use base R `plot` or `ggplot`. 
-- Hint: `hp` is the x-axis and `mpg` is the y-axis.
+- Hint: `horsepower` is the x-axis and `miles_per_gallon` is the y-axis.
 
 
 
-(d) Filter all the observations with `mpg` less than `mean(mpg)`. How many observations are there?
+(d) Filter all the observations with `miles_per_gallon` less than `mean(miles_per_gallon)`. How many observations are there?
 
 
 
-(e) From (c), what is the correlation between `mpg` and `disp_per_cyl` using the `summarize` function.
 
+(e) What is the correlation between `miles_per_gallon` and `disp_per_cyl` using the `summarize` function.
 
 
 (f) Create a factor variable `wt_type`. When `wt < 2.7`, set `wt_type` to "light"; when `2.7 <= wt < 3.5`, set `wt_type` to "mid"; and when `wt >= 3.5`, set `wt_type` to "heavy".
@@ -42,7 +42,7 @@ library(tidyverse)
 
 
 
-(h) By grouping the observations by different values `cyl`, compute the $z$-scores for `mpg` by subtracting the corresponding group mean and dividing the corresponding group standard deviation. Hint: you could use the `scale` function.
+(h) By grouping the observations by different values `cyl`, compute the $z$-scores for `miles_per_gallon` by subtracting the corresponding group mean and dividing the corresponding group standard deviation. Hint: you could use the `scale` function.
 
 
 
@@ -50,7 +50,7 @@ library(tidyverse)
 
 
 
-(j) Do auto-transmission cars have smaller mean values of `mpg`? Compute the sample means and compare. Is the difference statistical significant? State clearly the statistical assumptions that you have made.
+(j) Do auto-transmission cars have smaller mean values of `miles_per_gallon`? Compute the sample means and compare. Is the difference statistical significant? State clearly the statistical assumptions that you have made.
 
 
 
