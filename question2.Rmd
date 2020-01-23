@@ -20,24 +20,41 @@ Consider the dataset `gapminder`.
 
 In the following questions, use the dataset modified in (a).
 
+Create dataset and use that
+1. mutate 
+2. case_when <- 
+3. factor
 
 (b) How many countries are there in the dataset? How about for each continent?
+
+1. summarize
+2. n_distinct
+3. group by 
 
 
 
 (c) Order the levels of the continent factor in alphabetical order. (Hint: do not sort the dataset)
 
-
+Don't use arrange
+not changing dataset but order, that characteristic
 
 
 (d) Determine the population for the continents in 2007. Re-order the continent levels again so that they appear in order of total population. (Hint: do not sort the dataset)
 
+1. get the list of the new order
+    filter, mutate
+2. create a new dataset/update it
 
 
 (e) Using the result of (d) and plot a bar chart for the population for the continents in monotonic (increasing or decreasing) order of populations.
 
-
+all populations
 
 (f) By continent, which country experienced the sharpest increment in life expectancy from 1997 to 2007?
 
-
+1. new data in 1997
+2. new data in 2007
+3. join two tables
+    mutate - groupby filter
+4. create a new variable
+5. output by using groupby
